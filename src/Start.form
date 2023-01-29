@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Start">
+  <grid id="27dc6" binding="Panel1" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="5" left="10" bottom="5" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-15318756"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="29ec7" layout-manager="GridLayoutManager" row-count="7" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4488410"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="c39c5" class="javax.swing.JButton" binding="wypozyczButton" default-binding="true">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <font size="26"/>
+              <foreground color="-132097"/>
+              <text value="Wypozycz"/>
+            </properties>
+          </component>
+          <component id="cd887" class="javax.swing.JButton" binding="wylogujButton" default-binding="true">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <font size="26"/>
+              <foreground color="-132097"/>
+              <text value="Wyloguj"/>
+            </properties>
+          </component>
+          <component id="7220d" class="javax.swing.JButton" binding="dodajKsiążkęButton" default-binding="true">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <font size="26"/>
+              <foreground color="-132097"/>
+              <text value="Dodaj Książkę"/>
+            </properties>
+          </component>
+          <component id="2ab08" class="javax.swing.JButton" binding="pokazDaneButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <font size="26"/>
+              <foreground color="-132097"/>
+              <text value="Pokaz Dostępne Ksiązki"/>
+            </properties>
+          </component>
+          <component id="1d8b3" class="javax.swing.JButton" binding="pokazKlientówButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <font size="26"/>
+              <foreground color="-132097"/>
+              <text value="Pokaz Klientów"/>
+            </properties>
+          </component>
+          <component id="b3848" class="javax.swing.JButton" binding="resetButton" default-binding="true">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <font size="26"/>
+              <foreground color="-132097"/>
+              <text value="Reset"/>
+            </properties>
+          </component>
+          <component id="66a07" class="javax.swing.JButton" binding="dodajKlientaButton" default-binding="true">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <font size="26"/>
+              <foreground color="-132097"/>
+              <text value="Dodaj Klienta"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="b743c" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <scrollpane id="7f5ab">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-10053701"/>
+              <font size="20"/>
+              <foreground color="-16777216"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="2d1d5" class="javax.swing.JTable" binding="table1" default-binding="true">
+                <constraints/>
+                <properties>
+                  <font size="24"/>
+                  <rowHeight value="30"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+          <scrollpane id="d6624">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-10053701"/>
+              <font size="20"/>
+              <foreground color="-16777216"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="4cd02" class="javax.swing.JTable" binding="table2" default-binding="true">
+                <constraints/>
+                <properties>
+                  <font size="24"/>
+                  <rowHeight value="30"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
